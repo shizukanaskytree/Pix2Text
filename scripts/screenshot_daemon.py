@@ -15,7 +15,7 @@ from pix2text import set_logger, Pix2Text, render_html
 logger = set_logger(log_level='DEBUG')
 
 SCREENSHOT_DIR = os.getenv(
-    "SCREENSHOT_DIR", '/Users/king/Pictures/screenshot_from_xnip'
+    "SCREENSHOT_DIR", '/Users/wxf/Documents/prjs/2023/Pix2Text/examples/screenshot'
 )
 
 thresholds = {
